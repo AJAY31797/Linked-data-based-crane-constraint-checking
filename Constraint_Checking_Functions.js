@@ -4215,3 +4215,12 @@ function detectIntersectionOBB (obb1, obb2) {
     //return 
 }
 
+function checkEQuality ($surfaceValue1, $surfaceValue2) {
+    if ($surfaceValue1 == $surfaceValue2) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
